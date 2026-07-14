@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 通过 Get笔记 API 获取播客/音频/视频的完整转写文本。
-支持小宇宙、喜马拉雅、B站视频等音频/视频平台。
+支持小宇宙、喉马拉雅、B站视频等音频/视频平台。
 
 用法: python3 get_podcast_transcript.py <podcast_or_video_url>
 输出: JSON { txt_path, title, content_length, note_id, source_url }
